@@ -1,10 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/josephrosztoczy/farm-dashboard/app/components/common'
-let g:netrw_dirhist_2='/Users/josephrosztoczy/farm-dashboard/app/components'
-let g:netrw_dirhist_3='/Users/josephrosztoczy/farm-dashboard/app/components/forms'
-let g:netrw_dirhist_4='/Users/josephrosztoczy/farm-dashboard'
-let g:netrw_dirhist_5='/Users/josephrosztoczy/farm-dashboard/app'
-let g:netrw_dirhist_6='/Users/josephrosztoczy/farm-dashboard/app/components'
-let g:netrw_dirhist_7='/Users/josephrosztoczy/farm-dashboard/app/components/forms'
-let g:netrw_dirhist_8='/Users/josephrosztoczy/farm-dashboard/app/sagas'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/josephrosztoczy/farm-dashboard/app'

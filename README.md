@@ -8,4 +8,6 @@ Personal Vim Settings
 2. Clone repo into ~/.vim directory, usually created in the process of installation.
 3. Copy .vimrc_backup into .vimrc and move into home path
 ```cp .vimrc_backup .vimrc && move .vimrc ~/.vimrc```
+4. Create a directory to throw all your swapfiles in, b/c .vimrc
+```mkdir ~/.vim/swapfiles```
 4. Restart terminal to have changes take effect

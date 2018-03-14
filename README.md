@@ -12,7 +12,7 @@ Personal Vim Settings
 
 3. Copy .vimrc_backup into .vimrc and move into home path
 
-  ```cp .vimrc_backup .vimrc && move .vimrc ~/.vimrc```
+  ```cp .vimrc_backup .vimrc && mv .vimrc ~/.vimrc```
 
 4. Create a directory to throw all your swapfiles in, b/c .vimrc
 

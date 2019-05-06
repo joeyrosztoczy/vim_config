@@ -10,6 +10,9 @@ call vundle#begin()
  " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'elixir-editors/vim-elixir'
+Plugin 'mhinz/vim-mix-format'
+Plugin 'kien/ctrlp.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -54,6 +57,8 @@ colorscheme horseradish256
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set backspace=2
+set number
 
 " Store swapfiles in separate directory from projects
 set directory=~/.vim/swapfiles//
@@ -76,5 +81,12 @@ let g:ycm_confirm_extra_conf = 0
 let g:ycm_server_use_vim_stdout = 0
 let g:ycm_server_keep_logfiles = 1
 
+let g:mix_format_on_save = 1
 let mapleader = ","
 nnoremap <leader>gt :YcmCompleter GoTo<CR>
+
+"CTRLP Settings For Faster Fuzzy Searching
+set wildignore+=*/node_modules/**
+set wildignore+=*/deps/**
+set wildignore+=*/_build/**
+set wildignore+=*/.git/**
